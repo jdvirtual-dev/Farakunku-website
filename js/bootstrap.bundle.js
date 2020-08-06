@@ -7031,6 +7031,7 @@
 
 })));
 //# sourceMappingURL=bootstrap.bundle.js.map
+<<<<<<< HEAD
 
 
 $(function () {
@@ -7042,3 +7043,5 @@ $(function () {
       }
   });
 });
+=======
+>>>>>>> master

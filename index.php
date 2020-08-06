@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<<<<<<< HEAD
 
   <!-- Full Page Intro -->
   <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('http://localhost/wordpress/wp-content/uploads/2020/08/bg-img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
@@ -292,3 +293,6 @@
 
 <?php get_footer(); ?>
 
+=======
+<?php get_footer(); ?>
+>>>>>>> master

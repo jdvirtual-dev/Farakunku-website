@@ -4418,6 +4418,7 @@
 
 })));
 //# sourceMappingURL=bootstrap.js.map
+<<<<<<< HEAD
 
 
 $(function () {
@@ -4429,3 +4430,5 @@ $(function () {
       }
   });
 });
+=======
+>>>>>>> master
