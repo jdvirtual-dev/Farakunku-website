@@ -1,8 +1,7 @@
 <?php get_header(); ?>
-<<<<<<< HEAD
 
   <!-- Full Page Intro -->
-  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('http://localhost/wordpress/wp-content/uploads/2020/08/bg-img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://cdn.jdvirtual.co.uk/cdn/Farakunku/bg-img.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
       <!-- Content -->
@@ -10,13 +9,11 @@
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-md-12 mb-4 white-text text-center">
-            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
-              data-wow-delay="0.3s"><strong>Minimalist intro</strong></h1>
+          <div class="intro-font col-md-12 mb-4 white-text text-center">
+            <h1 class="intro-font-top h1-reponsive white-text mb-0 pt-md-5 pt-5 wow fadeInDown"
+              data-wow-delay="0.3s">Farakunku Lodges</h1>
             <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>beautifull text</strong></h5>
-            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">could be anything</a>
-            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">something cool</a>
+            <h5 class="intro-font-bottom mb-4 white-text wow fadeInDown" data-wow-delay="0.4s">The Gambia</h5>
           </div>
           <!--Grid column-->
         </div>
@@ -49,6 +46,7 @@
     <div class="col-lg-4 col-md-6 mb-4">
       <!--Card-->
       <div class="card testimonial-card" style="height: 100%; width: 100%;">
+      <div  class="trip-advisor">
       <div id="TA_selfserveprop345" class="TA_selfserveprop" style="height: 100%; width: 100%;">
         <ul id="KXVOd9x" class="TA_links Bm5HWQBwXN" style="height: 100%; width: 100%;">
           <li id="PQMtFBG71D" class="kcqF5Biz">
@@ -60,6 +58,7 @@
     </div>
     <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=345&amp;locationId=1463453&amp;lang=en_UK&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=false&amp;display_version=2" data-loadtrk onload="this.loadtrk=true">
   </script>      
+  </div>
   </div>
       <!--Card-->
     </div>
@@ -88,33 +87,50 @@
 
 
 <!--Section: Content-->
-<section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+<section class="px-md-5 mx-md-5 text-center">
 
   <!--Grid row-->
   <div class="row mb-4">
+        <div class="col-2">
+        </div>
 
-    <!--Grid column-->
-    <div class="col-md-8 mb-4 mb-md-0">
+        <div class="col-8">
+          <h3 class="about-title text-center"><strong>Welcome To Farakunku</strong></h3>
+        </div>
 
-      <h3 class="h3">About us type thing</h3>
+        <div class="col-2">
+        </div>
 
-      <p class="text-muted">fluffy text</p>
-
-    </div>
-    <!--Grid column-->
-
- 
 
   </div>
-  <!--Grid row-->
-
+  <div class="row mb-4 text-center">
   <!--Image-->
-  <div class="view overlay z-depth-1-half">
-    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" class="img-fluid" alt="">
+  <div class="view overlay z-depth-1-half about-img">
+    <img src="https://cdn.jdvirtual.co.uk/cdn/Farakunku/hm2.jpg" class="img-fluid" alt="">
     <a href="#">
       <div class="mask rgba-white-light"></div>
     </a>
   </div>
+</div>
+  <!--Grid row-->
+  <div class="row mb-4">
+
+  <p class="about-content">Heather and Moses, your Anglo/Gambian hosts, offer a very warm welcome to Farakunku. 
+Set on Gambia’s unspoilt south coast, on the outskirts of Tujereng Village, we provide secluded, deluxe accommodation for discerning travellers who seek easy-going, stylish, affordable comfort in a peaceful rural setting. Found half an hour from the airport, (collection service available) and just 2 kilometres from the sea Farakunku is a delightful, eco-friendly holiday destination for couples and single travellers. 
+We have 4 large, airy, octagonal lodges, each one has its own private sun terrace and secluded seating, surrounded by lovely gardens. A guests’ plunge pool with submerged seats for cooling off is situated in one corner of the gardens… ideal for that evening glass of wine or a daytime cold beer. Relax on our sun-beds, or laze in hammocks under trees.</p> 
+ 
+<p class="about-content">On site we have an open-sided residents’ <a href="">restaurant</a>, offering a buffet breakfast, daytime drinks and snacks, and a set 3-course evening menu. We also have free Wi-Fi. </p>
+ 
+<p class="about-content">>We are extremely proud that all of our energy is eco-friendly. We have a fully integrated solar-powered system that pumps water, provides a complete lighting solution, hot water, fans, fridges and freezers to allow the entire site to be run from eco-solutions without the need for noisy generators.</p> 
+ 
+<p class="about-content">Just a few steps away, we have a private tree and bird sanctuary, that offers our guests exclusive access to several thatched bird observatories with comfortable seating, a bird pool, and walkways between specimen indigenous trees and information on their medicinal and legendary properties. A growing number of recorded bird species have now made this their habitat and this is our way of  protecting and improving our environment.</p> 
+ 
+<p class="about-content">Don't take our word for it, please read our <a href="">customers' comments</a></p>
+ 
+</p>
+</div>
+
+        </div>
 
 </section>
 <!--Section: Content-->
@@ -123,11 +139,11 @@
 </div>
 
 
-<div class="container z-depth-1 my-5">
+<div class="accolades-custom container z-depth-1 my-5">
 
-  <section class="text-center py-5">
+  <section class="text-center py-5 accolade-section">
 
-    <p class="mb-4 pb-2 lead font-weight-bold">view us on, accolades etc</p>
+    <p class="accolades-title">Check out our ratings</p>
 
     <!-- Logo carousel -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1800">
@@ -142,15 +158,15 @@
             <!--/First column-->
 
             <!--Second column-->
-            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><img src="http://localhost/wordpress/wp-content/uploads/2020/08/ecoclubcert.gif"class="img-fluid px-4" alt="Logo"></div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><a target="_blank" href="https://ecoclub.com/ecotourism/rating/farakunku"><img src="https://cdn.jdvirtual.co.uk/cdn/Farakunku/ecoclubcert.gif"class="img-fluid px-4" alt="Logo"></a></div>
             <!--/Second column-->
 
             <!--Third column-->
-            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><img src="http://localhost/wordpress/wp-content/uploads/2020/08/puretravel.jpg"class="img-fluid px-4" alt="Logo"></div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><a target="_blank" href="https://www.bedandbirding.com/details.php?id=55"><img src="https://cdn.jdvirtual.co.uk/cdn/Farakunku/bedbirdingsmall.png"class="img-fluid px-4" alt="Logo"></a></div>
             <!--/Third column-->
 
             <!--Fourth column-->
-            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><img src="http://localhost/wordpress/wp-content/uploads/2020/08/ecotripmatch.png"class="img-fluid px-4" alt="Logo"></div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"><a target="_blank" href="https://www.ecotripmatch.com/farakunku-lodges-gambia/"><img src="https://cdn.jdvirtual.co.uk/cdn/Farakunku/ecotripmatch.png"class="img-fluid px-4" alt="Logo"></a></div>
             <!--/Fourth column-->
 
           </div>
@@ -171,128 +187,6 @@
 
 </div>
 
-  <div class="container mt-5">
-
- 
-    <!--Section: Content-->
-    <section class="dark-grey-text mb-5">
-      
-      <style>
-        .map-container-section {
-          overflow:hidden;
-          padding-bottom:56.25%;
-          position:relative;
-          height:0;
-        }
-        .map-container-section iframe {
-          left:0;
-          top:0;
-          height:100%;
-          width:100%;
-          position:absolute;
-        }
-      </style>
-
-      <!-- Section heading -->
-      <h3 class="font-weight-bold text-center mb-4">Contact Us</h3>
-      <!-- Section description -->
-      <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-        eum porro a pariatur veniam.</p>
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-lg-5 mb-lg-0 pb-lg-3 mb-4">
-
-          <!-- Form with header -->
-          <div class="card">
-            <div class="card-body">
-              <!-- Header -->
-              <div class="form-header blue accent-1">
-                <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
-              </div>
-              <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
-              <!-- Body -->
-              <div class="md-form">
-                <i class="fas fa-user prefix grey-text"></i>
-                <input type="text" id="form-name" class="form-control">
-                <label for="form-name">Your name</label>
-              </div>
-              <div class="md-form">
-                <i class="fas fa-envelope prefix grey-text"></i>
-                <input type="text" id="form-email" class="form-control">
-                <label for="form-email">Your email</label>
-              </div>
-              <div class="md-form">
-                <i class="fas fa-tag prefix grey-text"></i>
-                <input type="text" id="form-Subject" class="form-control">
-                <label for="form-Subject">Subject</label>
-              </div>
-              <div class="md-form">
-                <i class="fas fa-pencil-alt prefix grey-text"></i>
-                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                <label for="form-text">Send message</label>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-light-blue">Submit</button>
-              </div>
-            </div>
-          </div>
-          <!-- Form with header -->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-7">
-
-          <!--Google map-->
-          <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
-            <iframe src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
-              style="border:0" allowfullscreen></iframe>
-          </div>
-          <!-- Buttons-->
-          <div class="row text-center">
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1">
-                <i class="fas fa-map-marker-alt"></i>
-              </a>
-              <p>New York, 94126</p>
-              <p class="mb-md-0">United States</p>
-            </div>
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1">
-                <i class="fas fa-phone"></i>
-              </a>
-              <p>+ 01 234 567 89</p>
-              <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-            </div>
-            <div class="col-md-4">
-              <a class="btn-floating blue accent-1">
-                <i class="fas fa-envelope"></i>
-              </a>
-              <p>info@gmail.com</p>
-              <p class="mb-0">sale@gmail.com</p>
-            </div>
-          </div>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </section>
-    <!--Section: Content-->
-
-
-  </div>
-
 
 <?php get_footer(); ?>
 
-=======
-<?php get_footer(); ?>
->>>>>>> master

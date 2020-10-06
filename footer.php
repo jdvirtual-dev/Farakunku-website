@@ -1,74 +1,70 @@
-<<<<<<< HEAD
+
+
+
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer footer-bg-custom">
 
   <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
+  <div class="footer-custom container-fluid text-center text-md-left">
 
     <!-- Grid row -->
     <div class="row">
 
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <a class="navbar-brand" href="">
-						<?php bloginfo('name'); ?>
-					</a>
-        <p>Here you can use rows and columns to organize your footer content.</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
- 
-        <?php
-							wp_nav_menu(
-								array(
-									'menu'            => 'Main',
-									'theme_location'  => 'menu-1',
-									'container'       =>  false,
-									'container_id'    => 'navbarSupportedContent',
-									'container_class' => 'collapse navbar-collapse justify-content-center',
-									'menu_class'      => 'navbar-nav justify-content-center',
-									
-										)
-									  );						  
-						?>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
+  <!-- Footer Links -->
+  <div class="col-md-3 mb-md-0 mb-3">
+  <?php
+            wp_nav_menu(
+              array(
+                'menu'            => 'Sale',
+                'theme_location'  => 'menu-1',
+                'container'       =>  false,
+                'container_id'    => 'navbarSupportedContent navbar-collapse',
+                'container_class' => 'navbar-collapse justify-content-center',
+                'menu_class'      => 'navbar-menu justify-content-center',
+                'before'          => '<button class="footer-button" type="button">',
+                'after'			  => '</button>',
+              
+                  )
+                );						  
+        ?>
+        </div>								
+        <div class="col-md-6 mt-md-0 mt-3">
+          <?php
+            wp_nav_menu(
+              array(
+                'menu'            => 'Main',
+                'theme_location'  => 'menu-1',
+                'container'       =>  false,
+                'container_id'    => 'navbarSupportedContent navbar-collapse',
+                'container_class' => 'navbar-collapse justify-content-center',
+                'menu_class'      => 'navbar-menu justify-content-center',
+                'before'          => '<button class="footer-button" type="button">',
+                'after'			  => '</button>',
+              
+                  )
+                );						  
+        ?>
+    </div>
+    <div class="col-md-3 mb-md-0 mb-3 d-flex justify-content-end">
+    <?php
+            wp_nav_menu(
+              array(
+                'menu'            => 'Admin',
+                'theme_location'  => 'menu-1',
+                'container'       =>  false,
+                'container_id'    => 'navbarSupportedContent navbar-collapse',
+                'container_class' => 'navbar-collapse justify-content-center',
+                'menu_class'      => 'navbar-menu justify-content-center',
+                'before'          => '<button class="footer-button" type="button">',
+                'after'			  => '</button>',
+              
+                  )
+                );						  
+        ?>
+    </div>
+              </div>
+  </div>
+  
     </div>
     <!-- Grid row -->
 
@@ -78,109 +74,14 @@
 
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3"><p>Copyright &copy; <script>document.write(new Date().getFullYear())</script><a> - </a><a href="https://jdvirtual.co.uk/">jdvirtual.co.uk</a></p>
+  <div class="footer-custom-copyright text-center py-3"><p>Copyright &copy; <script>document.write(new Date().getFullYear())</script><a> - </a><a href="https://jdvirtual.co.uk/">jdvirtual.co.uk</a></p>
   </div>
 
   </footer>
+     
 
-
-
-<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <?php wp_footer(); ?>
-=======
-
-		<div class = "container">
-
-<div class = "jumbotron">
-    <h2>Post Title</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu erat, congue eget ornare et, luctus eget purus. Etiam et risus metus. Nam sed mi tellus. Mauris molestie massa eu metus tempor, in hendrerit arcu adipiscing.</p>
-</div>
-
-<div class = "panel panel-default panel-body">
-    <div class = "row">
-        <div class = "col-md-2">
-            <ul class="nav nav-pills nav-stacked">
-                <li><a href = "#">Category One</a></li>
-                <li><a href = "#">Category Two</a></li>
-                <li><a href = "#">Category Three</a></li>
-                <li><a href = "#">Category Four</a></li>
-            </ul>
-        </div>
-        <div class = "col-md-10">
-            <a href = "#"><h3>This random post is really awesome!</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu erat, congue eget ornare et, luctus eget purus. Etiam et risus metus. Nam sed mi tellus. Mauris molestie massa eu metus tempor, in hendrerit arcu adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p class = "text-muted">Posted by Ahsan on January 1st 2014</p>
-        </div>
-    </div>
-</div>
-
-</div>
-
-<div class = "navbar navbar-default navbar-fixed-bottom">
-
-<div class = "container">
-    <p class = "navbar-text pull-left">Site Built By Ahsan</p>
-    <a href = "http://youtube.com/" class = "navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
-</div>
-
-</div>
-
-<div class = "modal fade" id = "contact" role = "dialog">
-<div class = "modal-dialog">
-    <div class = "modal-content">
-        <form class = "form-horizontal">
-            <div class = "modal-header">
-                <h4>Contact BootStrap Theme</h4>
-            </div>
-            <div class = "modal-body">
-            
-                <div class = "form-group">
-                    
-                    <label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
-                    <div class = "col-lg-10">
-                        
-                        <input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class = "form-group">
-                    
-                    <label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
-                    <div class = "col-lg-10">
-                        
-                        <input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class = "form-group">
-                    
-                    <label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
-                    <div class = "col-lg-10">
-                        
-                        <textarea class = "form-control" rows = "8"></textarea>
-                        
-                    </div>
-                    
-                </div>
-            
-            </div>
-            <div class = "modal-footer">
-                <a class = "btn btn-default" data-dismiss = "modal">Close</a>    
-                <button class = "btn btn-primary" type = "submit">Send</button>
-            </div>
-        </form>
-    </div>
-</div>
-</div>
-<?php wp_footer(); ?>
-<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="../wp-content/themes/MyBSTheme/js/bootstrap.min.js"></script>
-
-
->>>>>>> master
 </body>
 </html>
